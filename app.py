@@ -141,7 +141,7 @@ def create_app_ui():
                                  multi=True
                                  ),
                     dcc.Dropdown(id='attack_type',
-                                 options=[{'label': 'All', 'value': 'All'}],
+                                 options=attack_type,
                                  placeholder='Select Attack Type',  # default value
                                  style={'width': 300, 'borderRadius': '15px'},
                                  multi=True
