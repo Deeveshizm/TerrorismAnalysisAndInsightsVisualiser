@@ -107,43 +107,43 @@ def create_app_ui():
                     dcc.Dropdown(id='month',
                                  options=month,
                                  placeholder='Select Month',  # default value
-                                 style={'width': 300, 'columnCount': 1, 'borderRadius': '15px'},
+                                 style={'width': 300, 'borderRadius': '15px'},
                                  multi=True
                                  ),
                     dcc.Dropdown(id='day',
                                  options=day,
                                  placeholder='Select Day',  # default value
-                                 style={'width': 300, 'columnCount': 2, 'borderRadius': '15px'},
+                                 style={'width': 300, 'borderRadius': '15px'},
                                  multi=True
                                  ),
                     dcc.Dropdown(id='region',
                                  options=region,
                                  placeholder='Select Region',  # default value
-                                 style={'width': 300, 'columnCount': 1, 'borderRadius': '15px'},
+                                 style={'width': 300, 'borderRadius': '15px'},
                                  multi=True
                                  ),
                     dcc.Dropdown(id='country',
                                  options=[{'label': 'All', 'value': 'All'}],
                                  placeholder='Select Country',  # default value
-                                 style={'width': 300, 'columnCount': 2, 'borderRadius': '15px'},
+                                 style={'width': 300, 'borderRadius': '15px'},
                                  multi=True
                                  ),
                     dcc.Dropdown(id='state',
                                  options=[{'label': 'All', 'value': 'All'}],
                                  placeholder='Select State',  # default value
-                                 style={'width': 300, 'columnCount': 1, 'borderRadius': '15px'},
+                                 style={'width': 300, 'borderRadius': '15px'},
                                  multi=True
                                  ),
                     dcc.Dropdown(id='city',
                                  options=[{'label': 'All', 'value': 'All'}],
                                  placeholder='Select City',  # default value
-                                 style={'width': 300, 'columnCount': 2, 'borderRadius': '15px'},
+                                 style={'width': 300, 'borderRadius': '15px'},
                                  multi=True
                                  ),
                     dcc.Dropdown(id='attack_type',
                                  options=[{'label': 'All', 'value': 'All'}],
                                  placeholder='Select Attack Type',  # default value
-                                 style={'width': 300, 'columnCount': 1, 'borderRadius': '15px'},
+                                 style={'width': 300, 'borderRadius': '15px'},
                                  multi=True
                                  ),
                     html.Br(),
